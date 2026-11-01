@@ -46,7 +46,7 @@ use crate::simulation::{AgentRow, CorrelationRow, MetricsRow, SimulationResult};
 pub const EXPERIMENT: &str = "brinsfield-silence";
 
 /// リポジトリの安定 id．git remote の名前とは独立に固定する．
-pub const REPO_ID: &str = "brinsfield2013";
+pub const REPO_ID: &str = "rep-brinsfield2013";
 
 /// 分野．
 ///
@@ -100,7 +100,7 @@ pub fn replication() -> Replication {
             "six-motive-dimensionality",
             "Employee silence motives form six distinct dimensions rather than one to five",
         ))
-        .obsidian_note("研究/98_論文レポート/80-再現実験/実装完了/brinsfield2013/設計書.md")
+        .obsidian_note("研究/98_論文レポート/80-再現実験/実装完了/rep-brinsfield2013/設計書.md")
 }
 
 /// 原著が報告した値のうち，この実装が run 1 本の中で直接測るもの．
